@@ -1,0 +1,7 @@
+load sunspot.dat
+year = sunspot(:,1);
+relNums = sunspot(:,2);
+plot(year,relNums)
+xlabel('Year')
+ylabel('Zurich Number')
+title('Sunspot Data')
